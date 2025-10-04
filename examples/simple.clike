@@ -1,0 +1,16 @@
+// Simple arithmetic example
+add(a, b) {
+    return a + b;
+}
+
+multiply(x, y) {
+    return x * y;
+}
+
+main() {
+    var a = 10;
+    var b = 20;
+    var sum = add(a, b);
+    var product = multiply(a, b);
+    return sum + product;
+}
